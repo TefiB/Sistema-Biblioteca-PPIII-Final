@@ -1,18 +1,59 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {FormsModule} from '@angular/forms';
+import { UsuariosService } from './services/usuarios.service';
+import { AuthGuard } from './auth.guard';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http'; 
+import {TokenInterceptorService} from './services/token-interceptor.service';
+import { NavegacionadminComponent } from './components/navegacionadmin/navegacionadmin.component';
+import { CatalogoadminComponent } from './components/catalogoadmin/catalogoadmin.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HomeadminComponent } from './components/homeadmin/homeadmin.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { LogoiftsComponent } from './components/logoifts/logoifts.component';
+import { HeaderComponent } from './components/header/header.component';
+import { PyRadminComponent } from './components/py-radmin/py-radmin.component';
+import { ListausuariosComponent } from './components/listausuarios/listausuarios.component';
+import { PrincipaladminComponent } from './components/principaladmin/principaladmin.component';
+import { CatalogolibroComponent } from './components/catalogolibro/catalogolibro.component';
+import { CatalogonotebookComponent } from './components/catalogonotebook/catalogonotebook.component';
+import { AddlibroComponent } from './components/addlibro/addlibro.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavegacionadminComponent,
+    CatalogoadminComponent,
+    FooterComponent,
+    HomeadminComponent,
+    BannerComponent,
+    LogoiftsComponent,
+    HeaderComponent,
+    PyRadminComponent,
+    ListausuariosComponent,
+    PrincipaladminComponent,
+    CatalogolibroComponent,
+    CatalogonotebookComponent,
+    AddlibroComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    UsuariosService,
+    AuthGuard,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: TokenInterceptorService,
+      multi:true
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

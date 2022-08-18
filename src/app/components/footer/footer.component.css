@@ -1,0 +1,29 @@
+div{
+    background: #009F3B;
+    
+}
+img{
+    width: 50px;
+    
+}
+.container {
+    display: flex;
+    justify-content: center/flex-start;
+    color: black;
+    text-align: center;
+
+}
+/*footer{
+    position:fixed;
+    bottom:0px;
+    width:110%;
+    background: #009F3B;
+}*/
+
+/*footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+}*/
+
+    
