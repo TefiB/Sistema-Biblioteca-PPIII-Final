@@ -7,6 +7,7 @@ import { ListausuariosComponent } from './components/listausuarios/listausuarios
 import { PrincipaladminComponent } from './components/principaladmin/principaladmin.component';
 import { CatalogolibroComponent } from './components/catalogolibro/catalogolibro.component';
 import { CatalogonotebookComponent } from './components/catalogonotebook/catalogonotebook.component';
+import { AddlibroComponent } from './components/addlibro/addlibro.component';
 
 const routes: Routes = [
 	{
@@ -22,6 +23,11 @@ const routes: Routes = [
 	{
 		path: 'catalogolibro',
 		component: CatalogolibroComponent,
+		
+	},
+	{
+		path: 'addlibro',
+		component: AddlibroComponent,
 		
 	},
 	{

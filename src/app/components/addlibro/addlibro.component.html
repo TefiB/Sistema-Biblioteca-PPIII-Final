@@ -1,1 +1,87 @@
 <p>addlibro works!</p>
+
+<form>
+    <div>
+        <h1>Agregar Libro</h1>
+    
+          <div class="col-3">
+            <input type="text" class="form-control" placeholder="ISBN">
+          </div>
+          <div class="col-5 my-2">
+            <input type="text" class="form-control" placeholder="Titulo">
+          </div>
+    
+          <div>
+            <label class="mr-sm-2" for="inlineFormCustomSelect">Fecha de Publicacion</label>
+            <input type="date" name="date" id="idate">
+        </div>
+       
+            <div class="col-auto my-2">
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Autor</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" placeholder="Seleccione Autor">
+                
+                <option value="1">Autor 1</option>
+                <option value="2">Autor 2</option>
+                <option value="3">Autor 3</option>
+              </select>
+            </div>
+    
+            <div class="col-auto my-2">
+                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Categoria</label>
+                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" placeholder="Seleccione Autor">
+                  
+                  <option value="1">Categoria 1</option>
+                  <option value="2">Categoria 2</option>
+                  <option value="3">Categoria 3</option>
+                </select>
+            </div>
+    
+            <div class="col-auto my-2">
+                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Editorial</label>
+                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" placeholder="Seleccione Autor">
+                  
+                  <option value="1">Editorial 1</option>
+                  <option value="2">Editorial 2</option>
+                  <option value="3">Editorial 3</option>
+                </select>
+            </div>
+    
+            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <label>Materia</label>
+    
+                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck1">Algebra</label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck2">Paradigmas</label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck3">Programacion Aplicada</label>
+    
+                <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck4">Arquitectura</label>
+    
+                <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck5">Base de Datos</label>
+            </div>
+
+            <div class="col-auto my-2">
+                <label class="form-label" for="customFile">Subir Indice</label>
+                <input type="file" class="form-control" id="customFile"/>   
+            </div>
+
+            <div class="col-auto my-2">
+                <label class="form-label" for="customFile">Subir Portada</label>
+                <input type="file" class="form-control" id="customFile"/>   
+            </div>
+            
+            
+            <div class="col-auto my-4">
+                <button type="submit" class="btn btn-success">Agregar Libro</button>
+                <button type="reset" class="btn btn-primary">Limpiar</button>
+            </div>
+    </div>
+</form>
+
+
+
