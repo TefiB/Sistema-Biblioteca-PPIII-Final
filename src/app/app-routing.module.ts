@@ -12,7 +12,7 @@ import { AddlibroComponent } from './components/addlibro/addlibro.component';
 const routes: Routes = [
 	{
 		path: '',
-		redirectTo: 'usuarios/principal',
+		redirectTo: 'principaladmin',
 		pathMatch: 'full'
 	},
   	{

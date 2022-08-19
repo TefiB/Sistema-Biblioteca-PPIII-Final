@@ -1,33 +1,82 @@
 <div>
     <h1>Notebooks</h1>
 
-    <button class="btn btn-success">Agregar Notebook</button>
+    <button id="addboton" class="btn btn-success">Agregar Notebook</button>
     
-    <div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel ab expedita est fugit explicabo quia architecto dolores aspernatur omnis unde, optio impedit. Quidem at quia fuga, et illo id eveniet.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates exercitationem ad animi porro numquam eius corporis adipisci ipsa a impedit eveniet rerum odit autem, amet quasi aut, consectetur iure sapiente.</p>
-        
+    <div class="input-group col-5">
+        <input type="search" class="form-control rounded" placeholder="Marca, Sistema Operativo..." aria-label="Search" aria-describedby="search-addon" />
+        <button type="button" class="btn btn-outline-primary">Buscar</button>
+
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ordenar por...
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" >ID</a>
+            <a class="dropdown-item" >Estado A-D</a>
+            <a class="dropdown-item" >Alfabetico</a>
+            </div>
         </div>
+       
+    </div>
+
+      
+   
+    
+    <table class="table table-dark table-hover" >
+        <thead class="bg-success">
+            <th>ID</th>
+            <th>Numero de Serie</th>
+            <th>Marca</th>
+            <th>Disco Rigido</th>
+            <th>RAM</th>
+            <th>Microprocesador</th>
+            <th>Sistema Operativo</th>
+            <th>Estado</th>
+            <th>Accion</th>
+        </thead>
+        <tr>
+            <th>001</th>
+            <th>12345687</th>
+            <th>Octopus</th>
+            <th>500 GB</th>
+            <th>32 GB</th>
+            <th>Intel Core</th>
+            <th>Windows 10</th>
+            <th>B</th>
+            <th> <button class="btn btn-warning">Modificar</button>  <button class="btn btn-danger">Eliminar</button> </th>
+            
+        </tr>
+        <tr>
+            <th>002</th>
+            <th>1111118</th>
+            <th>Octopus</th>
+            <th>500 GB</th>
+            <th>32 GB</th>
+            <th>Intel Core</th>
+            <th>Windows 10</th>
+            <th>A</th>
+            <th> <button class="btn btn-warning">Modificar</button>  <button class="btn btn-danger">Eliminar</button> </th>
+            
+        </tr>
+        <tr>
+            <th>003</th>
+            <th>12222229</th>
+            <th>LG</th>
+            <th>400 GB</th>
+            <th>32 GB</th>
+            <th>Intel Core</th>
+            <th>Windows 10</th>
+            <th>B</th>
+            <th> <button class="btn btn-warning">Modificar</button>  <button class="btn btn-danger">Eliminar</button> </th>
+          
+        </tr>
+
+
+
+
+
+    </table>
     
 
 </div>

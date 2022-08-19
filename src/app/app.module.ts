@@ -20,6 +20,7 @@ import { PrincipaladminComponent } from './components/principaladmin/principalad
 import { CatalogolibroComponent } from './components/catalogolibro/catalogolibro.component';
 import { CatalogonotebookComponent } from './components/catalogonotebook/catalogonotebook.component';
 import { AddlibroComponent } from './components/addlibro/addlibro.component';
+import { VerejemplarComponent } from './components/verejemplar/verejemplar.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { AddlibroComponent } from './components/addlibro/addlibro.component';
     CatalogolibroComponent,
     CatalogonotebookComponent,
     AddlibroComponent,
+    VerejemplarComponent,
 
   ],
   imports: [
