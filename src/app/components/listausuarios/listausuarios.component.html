@@ -1,3 +1,81 @@
-<p>listausuarios works!</p>
+<div>
+    <h1>Usuarios</h1>
 
-<button class="btn btn-success">Agregar Usuario</button>
+    <button id="addboton" class="btn btn-success">Agregar Usuario</button>
+    
+    <div class="input-group col-5">
+        <input type="search" class="form-control rounded" placeholder="ID, DNI, Apellido, Nombre..." aria-label="Search" aria-describedby="search-addon" />
+        <button type="button" class="btn btn-outline-primary">Buscar</button>
+
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ordenar por...
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" >ID</a>
+            <a class="dropdown-item" >Apellido</a>
+            <a class="dropdown-item" >Nombre</a>
+            <a class="dropdown-item" >Fecha de Nacimiento</a>
+            </div>
+        </div>
+       
+    </div>
+
+      
+   
+    
+    <table class="table table-dark table-hover" >
+        <thead class="bg-success">
+            <th>ID</th>
+            <th>Apellido</th>
+            <th>Nombre</th>
+            <th>Documento</th>
+            <th>Sexo</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Email</th>
+            <th>Telefono</th>
+            <th>Direccion</th>
+            <th>Estado</th>
+            <th>Accion</th>
+        </thead>
+        <tr>
+            <th>001</th>
+            <th>Barria</th>
+            <th>Estefania</th>
+            <th>42148077</th>
+            <th>Femenino</th>
+            <th>1/10/1999</th>
+            <th>abc@gmail.com</th>
+            <th>1234-5678</th>
+            <th>Calle Num 123</th>
+            <th>5 estrellas</th>
+            <th> <button class="btn btn-warning">Modificar</button>  <button class="btn btn-danger">Eliminar</button> </th>
+            
+        </tr>
+
+        <tr>
+            <th>002</th>
+            <th>Tal</th>
+            <th>Fulanito</th>
+            <th>12345678</th>
+            <th>Masculino</th>
+            <th>31/03/2000</th>
+            <th>defg@gmail.com</th>
+            <th>7485-9696</th>
+            <th>Calle Num 9999</th>
+            <th>VETADO</th>
+            <th> <button class="btn btn-warning">Modificar</button>  <button class="btn btn-danger">Eliminar</button> </th>
+            
+        </tr>
+     
+          
+        
+
+
+
+
+
+    </table>
+    
+
+</div>

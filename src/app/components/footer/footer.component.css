@@ -13,12 +13,15 @@ img{
     text-align: center;
 
 }
-/*footer{
-    position:fixed;
-    bottom:0px;
-    width:110%;
+footer {
     background: #009F3B;
-}*/
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  align-self: flex-end;
+  
+  }
 
 /*footer {
 position: absolute;
