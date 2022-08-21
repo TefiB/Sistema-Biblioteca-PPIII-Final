@@ -21,6 +21,9 @@ import { CatalogolibroComponent } from './components/catalogolibro/catalogolibro
 import { CatalogonotebookComponent } from './components/catalogonotebook/catalogonotebook.component';
 import { AddlibroComponent } from './components/addlibro/addlibro.component';
 import { VerejemplarComponent } from './components/verejemplar/verejemplar.component';
+import { LoginComponent } from './components/login/login.component';
+import { ForgotpassComponent } from './components/forgotpass/forgotpass.component';
+import { AddnotebookComponent } from './components/addnotebook/addnotebook.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +42,9 @@ import { VerejemplarComponent } from './components/verejemplar/verejemplar.compo
     CatalogonotebookComponent,
     AddlibroComponent,
     VerejemplarComponent,
+    LoginComponent,
+    ForgotpassComponent,
+    AddnotebookComponent,
 
   ],
   imports: [
