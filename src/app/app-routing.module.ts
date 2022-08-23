@@ -14,6 +14,9 @@ import { AddnotebookComponent } from './components/addnotebook/addnotebook.compo
 import { LoginComponent } from './components/login/login.component';
 import { ForgotpassComponent } from './components/forgotpass/forgotpass.component';
 
+import { AddautorComponent } from './components/addautor/addautor.component';
+import { ListaautoresComponent } from './components/listaautores/listaautores.component';
+
 
 
 
@@ -56,6 +59,16 @@ const routes: Routes = [
 	{
 		path: 'catalogonotebook',
 		component: CatalogonotebookComponent,
+		
+	},
+	{
+		path: 'addautor',
+		component: AddautorComponent,
+		
+	},
+	{
+		path: 'listaautores',
+		component: ListaautoresComponent,
 		
 	},
 	{

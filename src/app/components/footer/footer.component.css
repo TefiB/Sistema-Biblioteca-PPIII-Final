@@ -15,11 +15,12 @@ img{
 }
 footer {
     background: #009F3B;
-  color: #fff;
+  color: rgb(0, 0, 0);
   width: 100%;
   text-align: center;
-  padding: 1em;
+  padding: 5px;
   align-self: flex-end;
+  
   
   }
 

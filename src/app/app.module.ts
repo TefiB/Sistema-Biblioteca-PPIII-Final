@@ -24,6 +24,8 @@ import { VerejemplarComponent } from './components/verejemplar/verejemplar.compo
 import { LoginComponent } from './components/login/login.component';
 import { ForgotpassComponent } from './components/forgotpass/forgotpass.component';
 import { AddnotebookComponent } from './components/addnotebook/addnotebook.component';
+import { AddautorComponent } from './components/addautor/addautor.component';
+import { ListaautoresComponent } from './components/listaautores/listaautores.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,8 @@ import { AddnotebookComponent } from './components/addnotebook/addnotebook.compo
     LoginComponent,
     ForgotpassComponent,
     AddnotebookComponent,
+    AddautorComponent,
+    ListaautoresComponent,
 
   ],
   imports: [
