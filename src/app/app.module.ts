@@ -26,6 +26,12 @@ import { ForgotpassComponent } from './components/forgotpass/forgotpass.componen
 import { AddnotebookComponent } from './components/addnotebook/addnotebook.component';
 import { AddautorComponent } from './components/addautor/addautor.component';
 import { ListaautoresComponent } from './components/listaautores/listaautores.component';
+import { HomeuserComponent } from './components/homeuser/homeuser.component';
+import { CatalogolibrouserComponent } from './components/catalogolibrouser/catalogolibrouser.component';
+import { CatalogonotebookuserComponent } from './components/catalogonotebookuser/catalogonotebookuser.component';
+import { MisprestamosuserComponent } from './components/misprestamosuser/misprestamosuser.component';
+import { NavegacionuserComponent } from './components/navegacionuser/navegacionuser.component';
+import { PrincipaluserComponent } from './components/principaluser/principaluser.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +55,12 @@ import { ListaautoresComponent } from './components/listaautores/listaautores.co
     AddnotebookComponent,
     AddautorComponent,
     ListaautoresComponent,
+    HomeuserComponent,
+    CatalogolibrouserComponent,
+    CatalogonotebookuserComponent,
+    MisprestamosuserComponent,
+    NavegacionuserComponent,
+    PrincipaluserComponent,
 
   ],
   imports: [

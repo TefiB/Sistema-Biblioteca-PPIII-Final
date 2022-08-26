@@ -1,13 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './auth.guard';
-import { CatalogoadminComponent } from './components/catalogoadmin/catalogoadmin.component';
+
 import { PyRadminComponent } from './components/py-radmin/py-radmin.component';
-import { ListausuariosComponent } from './components/listausuarios/listausuarios.component';
+import { MisprestamosuserComponent } from './components/misprestamosuser/misprestamosuser.component';
+
+
 import { PrincipaladminComponent } from './components/principaladmin/principaladmin.component';
+import { PrincipaluserComponent } from './components/principaluser/principaluser.component';
 
 import { CatalogolibroComponent } from './components/catalogolibro/catalogolibro.component';
+import { CatalogolibrouserComponent} from './components/catalogolibrouser/catalogolibrouser.component';
+
 import { CatalogonotebookComponent } from './components/catalogonotebook/catalogonotebook.component';
+import { CatalogonotebookuserComponent } from './components/catalogonotebookuser/catalogonotebookuser.component';
+
 import { AddlibroComponent } from './components/addlibro/addlibro.component';
 import { AddnotebookComponent } from './components/addnotebook/addnotebook.component';
 
@@ -16,6 +23,8 @@ import { ForgotpassComponent } from './components/forgotpass/forgotpass.componen
 
 import { AddautorComponent } from './components/addautor/addautor.component';
 import { ListaautoresComponent } from './components/listaautores/listaautores.component';
+import { ListausuariosComponent } from './components/listausuarios/listausuarios.component';
+import { CatalogoadminComponent } from './components/catalogoadmin/catalogoadmin.component';
 
 
 
@@ -47,6 +56,11 @@ const routes: Routes = [
 		
 	},
 	{
+		path: 'catalogolibrouser',
+		component: CatalogolibrouserComponent,
+		
+	},
+	{
 		path: 'addlibro',
 		component: AddlibroComponent,
 		
@@ -59,6 +73,11 @@ const routes: Routes = [
 	{
 		path: 'catalogonotebook',
 		component: CatalogonotebookComponent,
+		
+	},
+	{
+		path: 'catalogonotebookuser',
+		component: CatalogonotebookuserComponent,
 		
 	},
 	{
@@ -77,6 +96,11 @@ const routes: Routes = [
 		
 	},
 	{
+		path: 'misprestamosuser',
+		component: MisprestamosuserComponent,
+		
+	},
+	{
 		path: 'listausuarios',
 		component: ListausuariosComponent,
 		
@@ -84,6 +108,11 @@ const routes: Routes = [
 	{
 		path: 'principaladmin',
 		component: PrincipaladminComponent,
+		
+	},
+	{
+		path: 'principaluser',
+		component: PrincipaluserComponent,
 		
 	}
 	
